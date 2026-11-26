@@ -30,7 +30,11 @@ export default function Home() {
           inLanguage: "es-PE",
         }}
       />
-      <HomeView name={site.name} hasProjects={published.length > 0} />
+      <HomeView
+        name={site.name}
+        hasProjects={published.length > 0}
+        projects={published}
+      />
     </>
   );
 }

@@ -1,0 +1,41 @@
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities) source(none);
+@source "../";
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+input,
+select,
+textarea {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+label {
+  display: block;
+}
+:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+a,
+button,
+select,
+input:not([type="checkbox"]) {
+  display: inline-block;
+  min-height: 24px;
+  min-width: 24px;
+}

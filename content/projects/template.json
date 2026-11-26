@@ -1,0 +1,20 @@
+{
+  "slug": "plantilla",
+  "title": "Título del caso",
+  "description": "Resumen del caso autorizado.",
+  "category": "branding",
+  "status": "draft",
+  "cover": {
+    "src": "/brand/pliegue.webp",
+    "alt": "Escultura de Nord Studios",
+    "width": 1200,
+    "height": 1200
+  },
+  "context": "Contexto",
+  "challenge": "Desafío",
+  "concept": "Concepto",
+  "solution": "Solución",
+  "deliverables": [],
+  "featured": false,
+  "order": 100
+}
